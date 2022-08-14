@@ -1,0 +1,54 @@
+.hero {
+    background-image: url("../../assets/bg .png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-hero1 {
+    padding: 20px;
+    width: 50vw;
+}
+
+.inner-hero1 h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.inner-hero1 h6 {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+#girl {
+    height: 600px;
+    width: 600px
+}
+
+.button {
+    background-color: #FF571E;
+    color: white;
+    height: 45px;
+    width: 140px;
+    border-radius: 100px;
+    border: none;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.holder {
+    display: flex;
+    align-items: center
+}
+
+.videobtn {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+}
