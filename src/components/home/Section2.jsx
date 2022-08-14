@@ -35,7 +35,7 @@ function Section2() {
         { id: 5, name: "orange", image: img5 },
         { id: 6, name: "apples", image: img6 },
         { id: 7, name: "grapes", image: img8 },
-        { id: 8, name: "strawberry", image: img9 },
+        { id: 8, name: "strawberry and apples", image: img9 },
       ]);
     }, 3000);
   }, []);
