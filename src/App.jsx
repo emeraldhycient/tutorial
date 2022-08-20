@@ -1,14 +1,15 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Errand from "./pages/Errand";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div>
-      <Errand />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Errand />} />
+        <Route path="/shops" element={<Errand />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

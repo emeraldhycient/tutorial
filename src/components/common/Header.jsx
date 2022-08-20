@@ -8,12 +8,22 @@ function Header() {
         <img src={logo} />
       </div>
       <ul className={styles.list}>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Shops</li>
+        <li>
+          <a href="/home">Home</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="/services">Services</a>
+        </li>
+        <li>
+          <a href="/shops">Shops</a>
+        </li>
       </ul>
-      <button className={styles.button}>Shop Now</button>
+      <button className={styles.button}>
+        <a href="/shop">Shop Now</a>
+      </button>
     </nav>
   );
 }
