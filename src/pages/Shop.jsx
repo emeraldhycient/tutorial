@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Header from "../components/common/Header";
 import Product from "../components/shop/Product";
+import { Container, Row } from "react-bootstrap";
 
 function Shop() {
   const [products, setProducts] = useState([]);
@@ -17,15 +18,15 @@ function Shop() {
   return (
     <section>
       <Header />
-      <div>
-        {products.length > 0 ? (
-          products.map((product) => (
-            <Product title={product.title} image={product.image} />
-          ))
-        ) : (
-          <div>loading...</div>
-        )}
-      </div>
+      <Container variant="fluid" style={{ marginTop: "20px" }}>
+        <Row>
+          {products.length > 0 ? (
+            products.map((product) => <Product product={product} />)
+          ) : (
+            <div>loading...</div>
+          )}
+        </Row>
+      </Container>
     </section>
   );
 }

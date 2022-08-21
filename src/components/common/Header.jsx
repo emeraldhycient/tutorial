@@ -20,6 +20,9 @@ function Header() {
         <li>
           <a href="/shops">Shops</a>
         </li>
+        <li>
+          <a href="/carts">Carts</a>
+        </li>
       </ul>
       <button className={styles.button}>
         <a href="/shop">Shop Now</a>
