@@ -1,5 +1,5 @@
 export const setStorage = (name, value) => {
-  localStorage.setItem(`${name}`, `${value}`);
+  localStorage.setItem(name, `${value}`);
   return value;
 };
 
