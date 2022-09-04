@@ -24,9 +24,9 @@ function Header() {
             <Nav.Link href="/carts">
               Carts <Badge bg="warning">{carts.length} </Badge>
             </Nav.Link>
-            <Nav>
+            <Nav.Link href="/login">
               <Button variant="sucess">Login</Button>
-            </Nav>
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
